@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+    <fieldset>
+    <!-- Registration form with the following input fields: -->
+    <legend>Registration Form: </legend>
+    <!-- Name -->
+    <label for="name">Name: <br></label>
+    <input id="name" type="text" placeholder="Enter your name" required>
+    <!-- Email -->
+    <label for="email"><br>E-mail: <br></label>
+    <input id="email" type="email" placeholder="Enter your email" required>
+    <!-- Phone Number -->
+    <label for="number"><br>Number: <br></label>
+    <input id="pnumber" type="number" placeholder="Enter your phone number" required>
+    <!-- Date of Birth -->
+    <label for="date"><br>Date of birth: <br></label>
+    <input id="date" type="date" required>
+    <!-- Gender -->
+    <label for="gender"><br>Gender: <br></label>
+    <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+    </select>
+    <!-- Age -->
+    <label for="age"><br>Age: <br></label>
+    <input id="age" type="number" placeholder="Enter your age" required>
+    <!-- Password -->
+    <label for="password"><br>Password: <br></label>
+    <div class="password-container">
+        <input id="password" type="password" placeholder="Enter your password" required>
+        Show
+        <input type="checkbox" name="show" id="show">
+    </div>
+    <!-- Confirm Password -->
+    <label for="confirm"><br>Confirm Password: <br></label>
+    <input id="confirm-password" type="password" placeholder="Confirm your password" required>
+    <!-- Address -->
+    <label for="address"><br>Address: <br></label>
+    <input id="address" type="text" placeholder="Enter your address" required>
+    <!-- City -->
+    <label for="city"><br>City name: <br></label>
+    <input id="city-name" type="text" placeholder="Enter your city" required>
+    <br><br>
+    <input id="submit" type="submit" value="Submit" required>
+    </fieldset>
+    
+    <!-- Javascript link -->
+    <script src="script.js"></script>
+</body>
+</html>
